@@ -1,9 +1,6 @@
 import React from 'react'
 import { TbArrowBigRightLinesFilled } from "react-icons/tb";
 import Navbar from '../components/Navbar';
-import hospital from '../assets/hospital.png'
-import url1 from '../assets/shortner.png'
-import wheather from '../assets/wheather.png'
 import Tag from '../components/Tag';
 
 
@@ -28,7 +25,7 @@ const Project = () => {
 
                     <div className='group rounded-2xl w-[250px]  h-[400px] border-1 flex flex-col items-center gap-[10px]  md:w-[370px] md:h-[550px]  lg:w-[400px] bg-white hover:scale-105 transition duration-500 ease-in-out ' >
                         <div className=' blur-[2px] object-center object-cover w-full  h-[50%] md:h-[70%] lg:h-[70%] group-hover:blur-none transition duration-500 ease-in-out ' >
-                            <img src={hospital} alt="" className=' rounded-2xl rounded-b-none lg:h-[100%]' />
+                            <img src='https://res.cloudinary.com/dgrnogtcq/image/upload/v1747649635/hospital_uihgmn.png' alt="" className=' rounded-2xl rounded-b-none lg:h-[100%]' />
                         </div>
                         <div className=' flex flex-col gap-[10px] pl-1 pr-1 w-full ' >
                             <div className=' flex flex-col items-center gap-[5px] md:flex-row md:justify-around  ' >
@@ -43,7 +40,7 @@ const Project = () => {
 
                     <div className='group rounded-2xl w-[250px]  h-[400px] border-1 flex flex-col items-center gap-[10px]  md:w-[370px] md:h-[550px]  lg:w-[400px] bg-white hover:scale-105 transition duration-500 ease-in-out ' >
                         <div className=' blur-[2px] object-center object-cover w-full  h-[50%] md:h-[70%] lg:h-[70%] group-hover:blur-none transition duration-500 ease-in-out ' >
-                            <img src={url1} alt="" className='  rounded-2xl rounded-b-none lg:h-[100%] ' />
+                            <img src='https://res.cloudinary.com/dgrnogtcq/image/upload/v1747649644/shortner_fairq5.png' alt="" className='  rounded-2xl rounded-b-none lg:h-[100%] ' />
                         </div>
                         <div className=' flex flex-col gap-[10px] pl-1 pr-1 w-full ' >
                             <div className=' flex flex-col items-center gap-[5px] md:flex-row md:justify-around ' >
@@ -58,7 +55,7 @@ const Project = () => {
 
                     <div className='group rounded-2xl w-[250px]  h-[400px] border-1 flex flex-col items-center gap-[10px]  md:w-[370px] md:h-[550px]  lg:w-[400px] bg-white hover:scale-105 transition duration-500 ease-in-out ' >
                         <div className=' blur-[2px] object-center object-cover w-full  h-[50%] md:h-[70%] lg:h-[70%] group-hover:blur-none transition duration-500 ease-in-out ' >
-                            <img src={wheather} alt="" className='rounded-2xl w-[100%] h-[100%] rounded-b-none' />
+                            <img src='https://res.cloudinary.com/dgrnogtcq/image/upload/v1747649645/wheather_rzyb1o.png' alt="" className='rounded-2xl w-[100%] h-[100%] rounded-b-none' />
                         </div>
                         <div className=' flex flex-col gap-[10px] pl-1 pr-1 w-full ' >
                             <div className=' flex flex-col items-center gap-[5px] md:flex-row md:justify-around  ' >
@@ -73,7 +70,7 @@ const Project = () => {
 
                     <div className='group rounded-2xl w-[250px]  h-[400px] border-1 flex flex-col items-center gap-[10px]  md:w-[370px] md:h-[550px]  lg:w-[400px] bg-white hover:scale-105 transition duration-500 ease-in-out ' >
                         <div className=' blur-[2px] object-center object-cover w-full  h-[50%] md:h-[70%] lg:h-[70%] group-hover:blur-none transition duration-500 ease-in-out ' >
-                            <img src={hospital} alt="" className=' rounded-2xl rounded-b-none lg:h-[100%]' />
+                            <img src='https://res.cloudinary.com/dgrnogtcq/image/upload/v1747649635/hospital_uihgmn.png' alt="" className=' rounded-2xl rounded-b-none lg:h-[100%]' />
                         </div>
                         <div className=' flex flex-col gap-[10px] pl-1 pr-1 w-full ' >
                             <div className=' flex flex-col items-center gap-[5px] md:flex-row md:justify-around  ' >

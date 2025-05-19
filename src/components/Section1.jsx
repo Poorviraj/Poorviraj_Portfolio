@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import main from '../assets/main.png'
 import { Link } from 'react-router-dom'
 import { GiCrossMark } from "react-icons/gi";
 
@@ -55,7 +54,7 @@ const Section1 = () => {
                 </div>
             </div>
             <div className=' flex items-center justify-center  ' >
-                <img src={main} alt="" />
+                <img src='https://res.cloudinary.com/dgrnogtcq/image/upload/v1747649634/main_y6m9m4.png' alt="" />
             </div>
         </div>
     </div>

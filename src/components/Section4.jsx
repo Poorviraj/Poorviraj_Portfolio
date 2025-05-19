@@ -1,16 +1,14 @@
 import React from 'react'
-import avatar from '../assets/avatar.png'
 import { Link } from 'react-router-dom'
 import { FiDownload } from "react-icons/fi";
 import { FaArrowRight } from "react-icons/fa6";
-import img2 from '../assets/ab.png'
 
 const Section4 = () => {
     return <div className=' w-[100%] mx-auto mt-[50px] flex h-[600px] mb-[30px] md:h-[500px] ' >
         <div className=' w-[80%] mx-auto flex flex-col items-center gap-[15px] pt-[20px] md:flex-row md:gap-[100px] ' >
 
             <div className=' rounded-full border-1 border-gray-200 w-[300px] flex items-center justify-center h-[300px]  object-center object-cover overflow-hidden md:flex-row md:w-[400px] md:h-[400px] ' >
-                <img src={avatar} alt="" className=' w-[200px] md:w-[270px] ' />
+                <img src='https://res.cloudinary.com/dgrnogtcq/image/upload/v1747649634/avatar_c3h9oa.png' alt="" className=' w-[200px] md:w-[270px] ' />
             </div>
 
             <div className=' flex flex-col gap-[10px] md:text-start  ' >

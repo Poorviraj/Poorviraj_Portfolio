@@ -1,5 +1,4 @@
 import React from 'react'
-import img2 from '../assets/ab.png'
 import { Link } from 'react-router-dom'
 import Links from './Links'
 const Navbar = () => {
@@ -7,7 +6,7 @@ const Navbar = () => {
         <div className='flex justify-center h-[300px] rounded-lg  sm:flex flex-row md:justify-between items-center max-w-[80%] sm:h-[80px] sm:rounded-full bg-gray-100 mx-auto ' >
             <div className='hidden md:flex' >
                 <Link to='/' >
-                    <img src={img2} alt="" width={100} />
+                    <img src='https://res.cloudinary.com/dgrnogtcq/image/upload/v1747649632/ab_ccsdwx.png' alt="" width={100} />
                 </Link>
             </div>
             <Links />
